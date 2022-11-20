@@ -124,77 +124,115 @@ Prémiové hodnocení je dobrovolné a lze za něj získat bonusové body. Podm�
 10: celkem bodu
 
 ====== Prehled hodnoceni ==========
+
 0.5: kod obsahuje komentare
+
 0.5: kod je prehledne zarovnany
+
 0.5: kod je rozlozen do dobre pojmenovanych funkci
+
 0.5: kod je kompaktni a prehledny
+
 -0.1: "do_things" neni zrovna moc dobre jmeno pro funkci ;) nerika nic o tom, jake veci ta funkce vlastne dela
+
 0.9:ok: vyhledani celeho tel. cisla
+
 0.9:ok: vyhledani casti tel. cisla
+
 0.9:ok: vyhledani tel. cisla
+
 0.9:ok: pripad nenalezeno tel. cislo
+
 0.9:ok: vyhledani celeho jmena
+
 0.9:ok: vyhledani casti jmena
+
 0.2:ok: transliterace 2
+
 0.2:ok: transliterace 3
+
 0.2:ok: transliterace 4
+
 0.2:ok: transliterace 5
+
 0.2:ok: transliterace 6
+
 0.2:ok: transliterace 7
+
 0.2:ok: transliterace 8
+
 0.2:ok: transliterace 9
+
 0.2:ok: transliterace 0
+
 0.5:ok: vyhledani dle prazdneho zadani
+
 0.5:ok: priklad ze zadani 2
+
 0.5:ok: priklad ze zadani 3
+
 0.5:ok: priklad ze zadani 4
+
 0.5:ok: priklad ze zadani 5
+
 0:spatne: (volitelne) vyhledani preruseneho tel. cisla
+
 0:spatne: (volitelne) vyhledani preruseneho jmena
+
 0.3:ok: reakce na neocekavane argumenty
 
+
 ====== Log z prekladu =============
+
 Ok
+
 
 ====== Analyza kodu ===============
+
 Ok
 
+
 ====== Log z jednotlivych testu ===
+
 0.9:ok: vyhledani celeho tel. cisla
+
 0.9:ok: vyhledani casti tel. cisla
+
 0.9:ok: vyhledani tel. cisla
+
 0.9:ok: pripad nenalezeno tel. cislo
+
 0.9:ok: vyhledani celeho jmena
+
 0.9:ok: vyhledani casti jmena
+
 0.2:ok: transliterace 2
+
 0.2:ok: transliterace 3
+
 0.2:ok: transliterace 4
+
 0.2:ok: transliterace 5
+
 0.2:ok: transliterace 6
+
 0.2:ok: transliterace 7
+
 0.2:ok: transliterace 8
+
 0.2:ok: transliterace 9
+
 0.2:ok: transliterace 0
+
 0.5:ok: vyhledani dle prazdneho zadani
+
 0.5:ok: priklad ze zadani 2
+
 0.5:ok: priklad ze zadani 3
+
 0.5:ok: priklad ze zadani 4
+
 0.5:ok: priklad ze zadani 5
-0:spatne: (volitelne) vyhledani preruseneho tel. cisla
-# Neodpovida vzorovemu vystupu
-# --- testdata/test_p1 2022-11-13 11:43:41.471937000 +0100
-# +++ test_p1 2022-11-13 11:46:15.127493000 +0100
-# @@ -1,2 +1,2 @@
-# cat b1.txt | ./t9search 2468 -->
-# - xxxxxx, 1234567890
-# + not found
-0:spatne: (volitelne) vyhledani preruseneho jmena
-# Neodpovida vzorovemu vystupu
-# --- testdata/test_p2 2022-11-13 11:43:41.473577000 +0100
-# +++ test_p2 2022-11-13 11:46:15.142787000 +0100
-# @@ -1,2 +1,2 @@
-# cat b3.txt | ./t9search 456 -->
-# - abcdefghijklmnopqrstuvwxyz, 111
-# + not found
+
 0.3:ok: reakce na neocekavane argumenty
 # ERROR: Too many arguments!!!
