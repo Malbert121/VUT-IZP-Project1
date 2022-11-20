@@ -235,4 +235,4 @@ Ok
 0.5:ok: priklad ze zadani 5
 
 0.3:ok: reakce na neocekavane argumenty
-# ERROR: Too many arguments!!!
+ERROR: Too many arguments!!!
