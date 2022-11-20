@@ -236,3 +236,5 @@ Ok
 
 0.3:ok: reakce na neocekavane argumenty
 ERROR: Too many arguments!!!
+
+Vyučující:	Kozák David, Ing.
